@@ -111,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/client/front/ts/main.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding>
                 <element signature="e#0#75#0" expanded="true" />
               </folding>
@@ -1174,7 +1174,7 @@
       <workItem from="1519361426097" duration="4528000" />
       <workItem from="1519371169406" duration="6146000" />
       <workItem from="1519483844716" duration="2140000" />
-      <workItem from="1519553100299" duration="6751000" />
+      <workItem from="1519553100299" duration="6838000" />
     </task>
     <task id="LOCAL-00001" summary="HomeWork about loginPage with html">
       <created>1519559790813</created>
@@ -1183,11 +1183,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519559790813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HomeWork">
+      <created>1519559909750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519559909750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50428000" />
+    <option name="totallyTimeSpent" value="50515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -1320,7 +1327,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="HomeWork about loginPage with html" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork about loginPage with html" />
+    <MESSAGE value="HomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1682,7 +1690,7 @@
     <entry file="file://$PROJECT_DIR$/client/front/ts/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding>
             <element signature="e#0#75#0" expanded="true" />
           </folding>
