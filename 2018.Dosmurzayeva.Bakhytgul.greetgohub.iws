@@ -1,52 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ccd8d81-501a-4ef5-8e45-703bf8588cb7" name="Default" comment="HomeWork about loginPage with html">
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/less/main.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/less/notify.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/less/vars.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/pug/_bootstrap_head.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/pug/_no_cache.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/pug/_page.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/pug/index.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/app/app.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/app/app.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/app/app.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/app/app.module.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/app/loginPage/login.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/app/loginPage/login.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/app/loginPage/login.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/main.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/front/ts/provider/HttpService.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/main/java/dgdg.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/tsconfig.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controller/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/kz.greetgo.blog.controller/controller/TestController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/kz.greetgo.blog.controller/utils/Controller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/stand/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/stand/src/main/java/kz/greetgo/blog/stand/bean_containers/StandBeanContainer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/stand/src/main/java/kz/greetgo/blog/stand/launcher/StandLauncher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/stand/src/main/java/kz/greetgo/blog/stand/utils/Modules.java" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/2018.Dosmurzayeva.Bakhytgul.greetgohub.iml" afterPath="$PROJECT_DIR$/2018.Dosmurzayeva.Bakhytgul.greetgohub.iml" />
-      <change beforePath="$PROJECT_DIR$/2018.Dosmurzayeva.Bakhytgul.greetgohub.ipr" afterPath="$PROJECT_DIR$/2018.Dosmurzayeva.Bakhytgul.greetgohub.ipr" />
+    <list default="true" id="5ccd8d81-501a-4ef5-8e45-703bf8588cb7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/2018.Dosmurzayeva.Bakhytgul.greetgohub.iws" afterPath="$PROJECT_DIR$/2018.Dosmurzayeva.Bakhytgul.greetgohub.iws" />
-      <change beforePath="$PROJECT_DIR$/client/HelloWorld.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/client.iml" afterPath="$PROJECT_DIR$/client/client.iml" />
-      <change beforePath="$PROJECT_DIR$/client/gulpfile.js" afterPath="$PROJECT_DIR$/client/gulpfile.js" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/Main.java" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/controller/HelloWorld.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/controller/controller.iml" afterPath="$PROJECT_DIR$/controller/controller.iml" />
-      <change beforePath="$PROJECT_DIR$/controller/src/main/java/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/stand/HelloWorld.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/stand/src/main/java/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/stand/stand.iml" afterPath="$PROJECT_DIR$/stand/stand.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -1218,12 +1174,20 @@
       <workItem from="1519361426097" duration="4528000" />
       <workItem from="1519371169406" duration="6146000" />
       <workItem from="1519483844716" duration="2140000" />
-      <workItem from="1519553100299" duration="6603000" />
+      <workItem from="1519553100299" duration="6751000" />
     </task>
+    <task id="LOCAL-00001" summary="HomeWork about loginPage with html">
+      <created>1519559790813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519559790813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50280000" />
+    <option name="totallyTimeSpent" value="50428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
