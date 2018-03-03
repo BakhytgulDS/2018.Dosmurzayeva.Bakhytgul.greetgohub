@@ -1,15 +1,17 @@
 import {Component} from "@angular/core";
 
-//import {HttpService} from "../provider/HttpService";
 import "rxjs/add/operator/toPromise";
+import {HttpService} from "../provider/HttpService";
 
 @Component({
-    selector: 'app',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+    selector: "app",
+    template: 'text is {{text}}'
+    //templateUrl: './app.component.html',
+   // styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-   /* private text: string;
+    private text: string;
+
     ngOnInit(): void{
         this.httpService.get("\getMainText").toPromise().then(
             result =>{
@@ -23,5 +25,5 @@ export class AppComponent {
     constructor(private httpService:HttpService){
 
     }
-    */
+
 }

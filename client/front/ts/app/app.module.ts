@@ -1,15 +1,15 @@
 import {NgModule} from "@angular/core";
-import {AppComponent} from "./app.component";
 import {BrowserModule} from "@angular/platform-browser";
-import {HttpService} from "../provider/HttpService";
 import {HttpModule} from "@angular/http";
-import {LoginFormComponent} from './loginPage/login.component';
+import {LoginFormComponent} from "./loginPage/login.component";
+import {AppComponent} from "./app.component";
+import {HttpService} from "../provider/HttpService";
 
 @NgModule({
     imports:[
-        BrowserModule, HttpModule,LoginFormComponent
+        BrowserModule, HttpModule
     ],
-    declarations:[AppComponent],
+    declarations:[AppComponent, LoginFormComponent],
     bootstrap:[AppComponent],
     entryComponents:[AppComponent],
     providers:[HttpService]

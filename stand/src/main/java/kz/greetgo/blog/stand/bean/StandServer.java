@@ -13,21 +13,18 @@ import java.util.List;
 
 @Bean
 public class StandServer  implements HasAfterInject{
-
-    public final Server server = new Server(8000);
+    public final Server server = new Server(1314);
 
     public StandServer start() throws Exception {
         server.start();
-        System.out.println("_______Server started");
+        System.out.println("Server started");
         return this;
     }
-
-    public BeanGetter<List<WebAppContextRegistration>> webAppContextRegistration;
 
     @Override
     public void afterInject() throws Exception {
         WebAppContext webAppServlet = new WebAppContext(
-                Modules.clientDir().toPath().resolve(".").toString(),"/stand");
+                Modules.clientDir().toPath().resolve(".").toString(),"/blog");
 
 
         webAppContextRegistration.get().stream()
@@ -35,5 +32,7 @@ public class StandServer  implements HasAfterInject{
                 .forEachOrdered(r -> r.registerTo(webAppServlet));
         server.setHandler(webAppServlet);
     }
+
+    public BeanGetter<List<WebAppContextRegistration>> webAppContextRegistration;
 
 }
