@@ -1,13 +1,11 @@
 package kz.greetgo.blog.stand.bean_containers;
 
-import kz.greetgo.depinject.Depinject;
-import kz.greetgo.depinject.gen.DepinjectUtil;
+import kz.greetgo.blog.stand.bean.StandServer;
+import kz.greetgo.depinject.core.BeanContainer;
+import kz.greetgo.depinject.core.Include;
 
-public class StandBeanContainer{
-    public static void main(String[] args){
+@Include(BeanConfigForStandBeanContainer.class)
+public interface StandBeanContainer extends BeanContainer {
 
-    }
-    private static void run(){
-
-    }
+    StandServer standServer();
 }

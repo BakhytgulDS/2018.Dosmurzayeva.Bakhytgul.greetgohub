@@ -17,7 +17,7 @@ public class Modules {
             File dir = new File(moduleName);
             try {
                 if (dir.isDirectory() &&
-                        dir.toPath().resolve("..").toFile().getCanonicalFile().getName().equals("education.parent")) {
+                        dir.toPath().resolve("..").toFile().getCanonicalFile().getName().equals("2018.Dosmurzayeva.Bakhytgul.greetgohub")) {
                     return dir;
                 }
             } catch (IOException e) {
@@ -34,18 +34,18 @@ public class Modules {
     }
 
     public static File clientDir() {
-        return findDir("2018.Dosmurzayeva.Bakhytgul.greetgohub.client");
+        return findDir("client");
     }
 
     public static File standDir() {
-        return findDir("2018.Dosmurzayeva.Bakhytgul.greetgohub.stand");
+        return findDir("stand");
     }
 
     public static File controllerDir() {
-        return findDir("2018.Dosmurzayeva.Bakhytgul.greetgohub.controller");
+        return findDir("controller");
     }
 
     public static File samplesDir() {
-        return findDir("2018.Dosmurzayeva.Bakhytgul.greetgohub.samples");
+        return findDir("samples");
     }
 }

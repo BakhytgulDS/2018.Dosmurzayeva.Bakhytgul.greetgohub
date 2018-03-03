@@ -6,6 +6,5 @@ import kz.greetgo.mvc.annotations.Mapping;
 
 @Bean
 @Mapping("getMainText")
-
-public class TestController implements Controller {
+public class TestController extends Controller {
 }
