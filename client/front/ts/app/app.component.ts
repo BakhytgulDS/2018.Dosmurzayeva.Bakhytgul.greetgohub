@@ -13,9 +13,9 @@ export class AppComponent {
     private text: string;
 
     ngOnInit(): void{
-        this.httpService.get("\getMainText").toPromise().then(
+        this.httpService.get("/getMainText").toPromise().then(
             result =>{
-                this.text = result.json().text;
+                this.text = result.json();
             },
             error =>{
                 this.text = "Something is wrong";
